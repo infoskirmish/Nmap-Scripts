@@ -6,7 +6,11 @@ local string = require "string"
 local table = require "table"
 
 description = [[
-Checks if an FTP server allows anonymous logins.
+Checks if an FTP server allows anonymous logins. 
+
+Will check for anonymous login and
+USR guest PWD blank
+USR guest PWD guest
 
 If anonymous is allowed, gets a directory listing of the root directory
 and highlights writeable files.
